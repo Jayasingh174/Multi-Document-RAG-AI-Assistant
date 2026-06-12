@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RAG Document Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>📄 RAG Document Assistant</h1>
+
+    <!-- Upload Section -->
+    <div class="card">
+        <h2>Upload Document</h2>
+        <input type="file" id="fileInput">
+        <button onclick="uploadFile()">Upload</button>
+        <p id="uploadStatus"></p>
+    </div>
+
+    <!-- Chat Section -->
+    <div class="card chat-section">
+        <h2>Ask Question</h2>
+
+        <div id="chatBox" class="chat-box"></div>
+
+        <div class="input-area">
+            <input type="text" id="questionInput" placeholder="Ask something...">
+            <button onclick="askQuestion()">Send</button>
+        </div>
+    </div>
+
+</div>
+<script src="/static/script.js"></script>
+</body>
+</html>
