@@ -1,3 +1,18 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+sentence-transformers
+faiss-cpu
+pymupdf
+python-docx
+pandas
+openpyxl
+ezdxf
+ollama
+numpy
+langchain
+python-dotenv
 aiofiles==24.1.0
 aiohappyeyeballs==2.6.1
 aiohttp==3.12.15
@@ -269,3 +284,5 @@ xxhash==3.6.0
 yarl==1.20.1
 zipp==3.23.0
 zstandard==0.24.0
+
+
