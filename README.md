@@ -185,7 +185,7 @@ Example Request:
 
 * FastAPI
 * Python
-* OpenAI
+* Ollama
 * Vector Database
 * Pandas
 * PyMuPDF
