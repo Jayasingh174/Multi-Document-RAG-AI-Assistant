@@ -1,4 +1,4 @@
-# 🚀 Multi-Doc RAG 
+# 🚀 Multi-Document-RAG-AI-Assistant
 
 An intelligent Retrieval-Augmented Generation (RAG) system built with FastAPI that allows users to upload multiple document formats, extract content, generate embeddings, store vectors, and perform AI-powered question answering.
 
